@@ -7,3 +7,5 @@ Both soursce and STLs are provided.
 (part FN-86). Print in ABS with 100% infil. Need to be drilled with 1.5mm drill and filed to fit.
 
 2. **Type97_lid** - hand grip lid for Real Sword Type-97. Print in ABS with 45% infill, 1.2mm walls.
+
+Licensing: **CC-BY-NC-SA** https://creativecommons.org/licenses/by-nc-sa/4.0/.
