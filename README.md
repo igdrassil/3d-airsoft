@@ -9,6 +9,8 @@
 
 2. **Type97_lid** - крышка ручки для Real Sword Type-97. Печать ABS с заполнением 45%, стенки 1.2мм, слой 0.2 мм.
 
+3. **Sordine...** - микрофон от активных наушников MSA Sordin и боковая поддержка штанги. Печать ABS с заполнением 45%, 4-5 периметров, слой 0.15-0.2 мм.
+
 Лицензия: **CC-BY-NC-SA** (указывать автора, только для некоммерческого использования, разрешены производные работы) https://creativecommons.org/licenses/by-nc-sa/4.0/
 
 
@@ -21,6 +23,9 @@ Both soursce and STLs are provided.
 (part FN-86). Print in ABS with 100% infil, layer height 0.1mm. Made slightly oversized, need to be drilled with 1.5mm drill and filed to fit.
 
 2. **Type97_lid** - hand grip lid for Real Sword Type-97. Print in ABS with 45% infill, 1.2mm walls.
+
+3. **Sordine...** - MSA Sordin hearing protection heaset mic head and side support. Print ABS with 45% infill, 4-5 perimeters, layer height 0.15-0.2 mm.
+
 
 Licensing: **CC-BY-NC-SA** (attribution, non-commercial, share-alike) https://creativecommons.org/licenses/by-nc-sa/4.0/
 
