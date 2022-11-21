@@ -1,0 +1,21 @@
+name: Mirroring repo
+on:
+  push
+jobs:
+  mirroring:
+    if: github.repository == 'igdrassil/3d-airsoft'
+    runs-on: ubuntu-latest
+    steps:
+      - uses : actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - name: Preparing to mirror
+        env:
+          INPUT_TARGET_REPO_URL: 'git@github.com:igdrassil/3d-copy.git'
+        run: | 
+          mkdir -p ~/.ssh && echo "${{ secrets.INPUT_SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa && chmod 600 ~/.ssh/id_rsa
+      - name: Mirroring to destination repo
+        env:
+          INPUT_TARGET_REPO_URL: 'git@github.com:igdrassil/3d-copy.git'
+        run: | 
+          git remote add mirror $INPUT_TARGET_REPO_URL && git push --progress --tags --force --prune mirror 'refs/remotes/origin/*:refs/heads/*'
