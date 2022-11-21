@@ -1,6 +1,8 @@
 name: Mirroring repo
 on:
-  push
+  push:
+    branches: 
+      - '**'
 jobs:
   mirroring:
     if: github.repository == 'igdrassil/3d-airsoft'
